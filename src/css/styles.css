@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
 body{
     background-color:#11472D ;
     margin: 0;
@@ -7,7 +8,9 @@ body{
     background-color: grey;
     width: 100%;
     height: 90px;
-    position: fixed;
+    position: sticky;
+    top:0;
+    z-index: 999;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -166,5 +169,105 @@ a:active {
  width: 140px;
  height: 30px;
  top: 480px;
+ left: 1093px;
+}
+#i13info{
+    position: absolute;
+    top: 160px;
+    left: 305px;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.i12promax{
+    background-color: white;
+    position: absolute;
+    width: 195px;
+    height: 275px;
+    left: 50px ;
+    top: 610px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+}
+.i12pro{
+    background-color: white;
+    position: absolute;
+    width: 195px;
+    height: 275px;
+    left: 380px ;
+    top: 610px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+}
+.i12normal{
+    background-color: white;
+    position: absolute;
+    width: 195px;
+    height: 275px;
+    left: 710px ;
+    top: 610px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+}
+.i12mini{
+    background-color: white;
+    position: absolute;
+    width: 195px;
+    height: 275px;
+    left: 1040px ;
+    top: 610px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+}
+#i12promaxbtn .box
+{
+ background-color:#0e93ff;
+ transition: all 0.35s ease;
+ border-radius:15px;
+ position: absolute;
+ width: 140px;
+ height: 30px;
+ top: 880px;
+ left: 103px;
+}
+#i12probtn .box
+{
+ background-color:#0e93ff;
+ transition: all 0.35s ease;
+ border-radius:15px;
+ position: absolute;
+ width: 140px;
+ height: 30px;
+ top: 880px;
+ left: 433px;
+}
+#i12normalbtn .box
+{
+ background-color:#0e93ff;
+ transition: all 0.35s ease;
+ border-radius:15px;
+ position: absolute;
+ width: 140px;
+ height: 30px;
+ top: 880px;
+ left: 763px;
+}
+#i12minibtn .box
+{
+ background-color:#0e93ff;
+ transition: all 0.35s ease;
+ border-radius:15px;
+ position: absolute;
+ width: 140px;
+ height: 30px;
+ top: 880px;
  left: 1093px;
 }
