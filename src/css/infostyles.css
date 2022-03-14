@@ -44,6 +44,17 @@ td, th {
  top: 790px;
  left: 103px;
 }
+#p50probtn .box
+{
+ background-color:#0e93ff;
+ transition: all 0.35s ease;
+ border-radius:15px;
+ position: absolute;
+ width: 440px;
+ height: 70px;
+ top: 790px;
+ left: 103px;
+}
 .homebtn {
     background-color: DodgerBlue; 
     border: none; 
