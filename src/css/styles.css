@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body{
     background-color:#11472D ;
     margin: 0;
@@ -90,7 +90,7 @@ a:active {
     border: 2px solid black;
     padding: 20px;
 }
-.i13pro{
+.s22plus{
     background-color: white;
     position: absolute;
     width: 195px;
@@ -102,7 +102,7 @@ a:active {
     border: 2px solid black;
     padding: 20px;
 }
-.i13normal{
+.mi11ultra{
     background-color: white;
     width: 195px;
     height: 275px;
@@ -134,11 +134,11 @@ a:active {
  position: absolute;
  width: 140px;
  height: 30px;
- top: 480px;
+ top: 490px;
  left: 103px;
 }
 
-#i13probtn .box
+#s22plusbtn .box
 {
  background-color:#0e93ff;
  transition: all 0.35s ease;
@@ -146,10 +146,10 @@ a:active {
  position: absolute;
  width: 140px;
  height: 30px;
- top: 480px;
+ top: 490px;
  left: 433px;
 }
-#i13normalbtn .box
+#mi11ultrabtn .box
 {
  background-color:#0e93ff;
  transition: all 0.35s ease;
@@ -157,7 +157,7 @@ a:active {
  position: absolute;
  width: 140px;
  height: 30px;
- top: 480px;
+ top: 490px;
  left: 763px;
 }
 #i13minibtn .box
@@ -171,14 +171,6 @@ a:active {
  top: 480px;
  left: 1093px;
 }
-#i13info{
-    position: absolute;
-    top: 160px;
-    left: 305px;
-    color: white;
-    font-family: 'Fredoka', sans-serif;
-}
-
 .i12promax{
     background-color: white;
     position: absolute;
@@ -235,7 +227,7 @@ a:active {
  position: absolute;
  width: 140px;
  height: 30px;
- top: 880px;
+ top: 890px;
  left: 103px;
 }
 #i12probtn .box
@@ -271,3 +263,69 @@ a:active {
  top: 880px;
  left: 1093px;
 }
+#newphones{
+    font-family: 'Anton', sans-serif;
+font-size: 5em;
+position: absolute; top: 15px; left: 650px;
+color: white;
+}
+#i13promaxprice{
+    font-size: large;
+    position: absolute;
+    top: 447px;
+    left: 133px;
+}
+#s22plusprice{
+    font-size: large;
+    position: absolute;
+    top: 447px;
+    left: 475px;
+}
+#mi11ultraprice{
+    font-size: large;
+    position: absolute;
+    top: 447px;
+    left: 805px;
+}
+.aboutusbtn {
+    background-color: DodgerBlue; 
+    border: none; 
+    color: white;
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    text-decoration: none;
+  }
+  
+  .aboutusbtn:hover {
+    background-color: royalblue;
+    text-decoration: none;
+  }
+  .contactusbtn {
+    background-color: DodgerBlue; 
+    border: none; 
+    color: white;
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    text-decoration: none;
+  }
+  
+  .contactusbtn:hover {
+    background-color: royalblue;
+    text-decoration: none;
+  }
+  .wcusbtn {
+    background-color: DodgerBlue; 
+    border: none; 
+    color: white;
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    text-decoration: none;
+  }
+  
+  .wcusbtn:hover {
+    background-color: royalblue;
+    text-decoration: none;
+  }
