@@ -89,7 +89,7 @@ a:active {
     position: absolute;
     width: 195px;
     height: 275px;
-    left: 50px;
+    left: 240px;
     top: 210px;
     text-align: center;
     border-radius: 25px;
@@ -101,7 +101,7 @@ a:active {
     position: absolute;
     width: 195px;
     height: 275px;
-    left: 380px;
+    left: 570px;
     top: 210px;
     text-align: center;
     border-radius: 25px;
@@ -112,7 +112,7 @@ a:active {
     background-color: white;
     width: 195px;
     height: 275px;
-    left: 710px;
+    left: 900px;
     position: absolute;
     top:210px;
     text-align: center;
@@ -125,7 +125,7 @@ a:active {
     position: absolute;
     width: 195px;
     height: 275px;
-    left: 1040px ;
+    left: 1230px ;
     top: 210px;
     text-align: center;
     border-radius: 25px;
@@ -141,7 +141,7 @@ a:active {
  width: 140px;
  height: 30px;
  top: 490px;
- left: 103px;
+ left: 293px;
 }
 
 #s22plusbtn .box
@@ -153,7 +153,7 @@ a:active {
  width: 140px;
  height: 30px;
  top: 490px;
- left: 433px;
+ left: 623px;
 }
 #mi11ultrabtn .box
 {
@@ -164,7 +164,7 @@ a:active {
  width: 140px;
  height: 30px;
  top: 490px;
- left: 763px;
+ left: 953px;
 }
 #p50probtn .box
 {
@@ -175,7 +175,7 @@ a:active {
  width: 140px;
  height: 30px;
  top: 490px;
- left: 1093px;
+ left: 1283px;
 }
 #p6probtn .box
 {
@@ -186,7 +186,7 @@ a:active {
  width: 140px;
  height: 30px;
  top: 490px;
- left: 1413px;
+ left: 1613px;
 }
 
 .p6pro{
@@ -194,7 +194,7 @@ a:active {
     position: absolute;
     width: 195px;
     height: 275px;
-    left: 1360px;
+    left: 1560px;
     top: 210px;
     text-align: center;
     border-radius: 25px;
@@ -206,7 +206,7 @@ a:active {
     position: absolute;
     width: 195px;
     height: 275px;
-    left: 380px ;
+    left: 570px ;
     top: 610px;
     text-align: center;
     border-radius: 25px;
@@ -218,7 +218,7 @@ a:active {
     position: absolute;
     width: 195px;
     height: 275px;
-    left: 710px ;
+    left: 900px ;
     top: 610px;
     text-align: center;
     border-radius: 25px;
@@ -230,7 +230,7 @@ a:active {
     position: absolute;
     width: 195px;
     height: 275px;
-    left: 1040px ;
+    left: 1230px ;
     top: 610px;
     text-align: center;
     border-radius: 25px;
@@ -247,7 +247,7 @@ a:active {
  width: 140px;
  height: 30px;
  top: 890px;
- left: 433px;
+ left: 626px;
 }
 #i12promaxbtn .box
 {
@@ -258,7 +258,7 @@ a:active {
  width: 140px;
  height: 30px;
  top: 890px;
- left: 763px;
+ left: 956px;
 }
 #i12minibtn .box
 {
@@ -269,54 +269,54 @@ a:active {
  width: 140px;
  height: 30px;
  top: 890px;
- left: 1093px;
+ left: 1286px;
 }
 #newphones{
     font-family: Arial, Helvetica, sans-serif;
 font-size: 5em;
-position: absolute; top: 15px; left: 600px;
+position: absolute; top: 15px; left: 760px;
 color: white;
 }
 #i13promaxprice{
     font-size: large;
     position: absolute;
     top: 447px;
-    left: 133px;
+    left: 323px;
 }
 #s22plusprice{
     font-size: large;
     position: absolute;
     top: 447px;
-    left: 475px;
+    left: 665px;
 }
 #mi11ultraprice{
     font-size: large;
     position: absolute;
     top: 447px;
-    left: 805px;
+    left: 990px;
 }
 #p50proprice{
     font-size: large;
     position: absolute;
     top: 447px;
-    left: 1130px;
+    left: 1315px;
 }
 #p6proprice{
     font-size: large;
     position: absolute;
     top: 447px;
-    left: 1455px;
+    left: 1655px;
 }
 #matexsprice{
     font-size: large;
     position: absolute;
     top: 844px;
-    left: 470px;}
+    left: 660px;}
 #i12promaxprice{
     font-size: large;
     position: absolute;
     top: 844px;
-    left: 802px;
+    left: 992px;
 }
 
 .aboutusbtn {
@@ -367,7 +367,7 @@ color: white;
     width: 240px;
 
   }
-  
+
   .wcusbtn:hover {
     background-color: royalblue;
     text-decoration: none;
@@ -385,6 +385,12 @@ color: white;
   .homebtn:hover {
     background-color: RoyalBlue;
   }
+#time {
+    font-size: large;
+    position: absolute;
+    left: 95px;
+    top: 5px;
+}
 
 @media only screen and (max-width: 1064px) {
     .content {

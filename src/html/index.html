@@ -11,10 +11,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="shortcut icon" href="../img/icon.jpg"/>
     </head>
-<body>
+<body onload="demo()">
     <div class="navbar">
         <img id="topleft-icon" src="../img/icon.jpg"/>
         <div class="content">
+         <p id="demo" style="position:absolute;left:125px;top:px; font-size: 4em; color: white;"></p>
          <STYLE>A {text-decoration: none;} </STYLE>
          <button class="aboutusbtn" style="position: absolute; left: 675px; top: 15px; font-size: x-large;"><i class="fa fa-info"><a href="comingsoon.html" ></i> About Us</a></button> 
          <button class="contactusbtn" style="position: absolute; left: 860px; top: 15px; font-size: x-large;"><i class="fa fa-user-circle-o"><a href="comingsoon.html" ></i> Contact Us</a></button> 
@@ -22,7 +23,8 @@
          </STYLE>
         </div>
        <a href="#"><img src="../img/basket.png" onclick="myfunction()" id="loginbutton"/> </a>
-       <script> function myfunction() {alert("Coming soon...")} </script>
+       <script> function myfunction() {alert("Coming soon...")
+      } </script>
         </div>
         <p id="newphones">Our newest phones</p>
     <div> <input class="searchbar" type="text" placeholder="Search..."></div>
@@ -73,6 +75,13 @@
          <p id="i12promaxprice">£949.99</p>
 
 
+<script>
+setInterval(myTimer, 1000);
 
+function myTimer() {
+  const d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
 </body>
 </html>
