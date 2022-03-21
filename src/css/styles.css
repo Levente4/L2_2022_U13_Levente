@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@media only screen and (min-width: 576px) and (max-width: 5767px) { 
-
 body{
     background-color:#11472D ;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navbar{
     background-color: grey;
@@ -45,6 +43,10 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .contact{
     width: 90px;
@@ -53,6 +55,7 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .chooseus{
     width: 90px;
@@ -61,6 +64,7 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .topnav input[type=text] {
     float: right;
@@ -182,7 +186,7 @@ a:active {
  width: 140px;
  height: 30px;
  top: 490px;
- left: 1093px;
+ left: 1413px;
 }
 
 .p6pro{
@@ -197,7 +201,7 @@ a:active {
     border: 2px solid black;
     padding: 20px;
 }
-.i12pro{
+.matexs{
     background-color: white;
     position: absolute;
     width: 195px;
@@ -209,7 +213,7 @@ a:active {
     border: 2px solid black;
     padding: 20px;
 }
-.i12normal{
+.i12promax{
     background-color: white;
     position: absolute;
     width: 195px;
@@ -233,7 +237,8 @@ a:active {
     border: 2px solid black;
     padding: 20px;
 }
-#p6probtn .box
+
+#matexsbtn .box
 {
  background-color:#0e93ff;
  transition: all 0.35s ease;
@@ -242,20 +247,9 @@ a:active {
  width: 140px;
  height: 30px;
  top: 890px;
- left: 103px;
-}
-#i12probtn .box
-{
- background-color:#0e93ff;
- transition: all 0.35s ease;
- border-radius:15px;
- position: absolute;
- width: 140px;
- height: 30px;
- top: 880px;
  left: 433px;
 }
-#i12normalbtn .box
+#i12promaxbtn .box
 {
  background-color:#0e93ff;
  transition: all 0.35s ease;
@@ -263,7 +257,7 @@ a:active {
  position: absolute;
  width: 140px;
  height: 30px;
- top: 880px;
+ top: 890px;
  left: 763px;
 }
 #i12minibtn .box
@@ -274,13 +268,13 @@ a:active {
  position: absolute;
  width: 140px;
  height: 30px;
- top: 880px;
+ top: 890px;
  left: 1093px;
 }
 #newphones{
-    font-family: 'Anton', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 font-size: 5em;
-position: absolute; top: 15px; left: 650px;
+position: absolute; top: 15px; left: 600px;
 color: white;
 }
 #i13promaxprice{
@@ -311,16 +305,32 @@ color: white;
     font-size: large;
     position: absolute;
     top: 447px;
-    left: 1130px;
+    left: 1455px;
 }
+#matexsprice{
+    font-size: large;
+    position: absolute;
+    top: 844px;
+    left: 470px;}
+#i12promaxprice{
+    font-size: large;
+    position: absolute;
+    top: 844px;
+    left: 802px;
+}
+
 .aboutusbtn {
     background-color: DodgerBlue; 
     border: none; 
     color: white;
-    padding: 12px 16px; 
     font-size: 16px; 
     cursor: pointer; 
     text-decoration: none;
+    border-radius: 25px;
+    background: dodgerblue;
+    padding: 10px;
+    height: 55px;
+    width: 180px;
   }
   
   .aboutusbtn:hover {
@@ -331,10 +341,13 @@ color: white;
     background-color: DodgerBlue; 
     border: none; 
     color: white;
-    padding: 12px 16px; 
     font-size: 16px; 
-    cursor: pointer; 
     text-decoration: none;
+    border-radius: 25px;
+    background: dodgerblue;
+    padding: 10px;
+    height: 55px;
+    width: 220px;
   }
   
   .contactusbtn:hover {
@@ -345,10 +358,14 @@ color: white;
     background-color: DodgerBlue; 
     border: none; 
     color: white;
-    padding: 12px 16px; 
     font-size: 16px; 
-    cursor: pointer; 
     text-decoration: none;
+    border-radius: 25px;
+    background: dodgerblue;
+    padding: 10px;
+    height: 55px;
+    width: 240px;
+
   }
   
   .wcusbtn:hover {
@@ -369,12 +386,9 @@ color: white;
     background-color: RoyalBlue;
   }
 
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 1064px) {
+    .content {
+        width: 60%;
+        font-size: 0.6em;
+    }
 }
