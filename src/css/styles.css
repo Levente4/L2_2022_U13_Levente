@@ -36,6 +36,7 @@ a:active {
     align-items: center;
     height: 100%;
 }
+
 .about{
     width: 90px;
     height: 100%;
@@ -87,10 +88,10 @@ a:active {
 .i13promax{
     background-color: white;
     position: absolute;
-    width: 195px;
-    height: 275px;
+    width: 10%;
     left: 240px;
     top: 210px;
+    height: 275px;
     text-align: center;
     border-radius: 25px;
     border: 2px solid black;
@@ -99,7 +100,7 @@ a:active {
 .s22plus{
     background-color: white;
     position: absolute;
-    width: 195px;
+    width: 10%;
     height: 275px;
     left: 570px;
     top: 210px;
@@ -110,7 +111,7 @@ a:active {
 }
 .mi11ultra{
     background-color: white;
-    width: 195px;
+    width: 10%;
     height: 275px;
     left: 900px;
     position: absolute;
@@ -123,7 +124,7 @@ a:active {
 .p50pro{
     background-color: white;
     position: absolute;
-    width: 195px;
+    width: 10%;
     height: 275px;
     left: 1230px ;
     top: 210px;
@@ -138,7 +139,7 @@ a:active {
  transition: all 0.35s ease;
  border-radius:15px;
  position: absolute;
- width: 140px;
+ width: 7%;
  height: 30px;
  top: 490px;
  left: 293px;
@@ -150,7 +151,7 @@ a:active {
  transition: all 0.35s ease;
  border-radius:15px;
  position: absolute;
- width: 140px;
+ width: 7%;
  height: 30px;
  top: 490px;
  left: 623px;
@@ -172,7 +173,7 @@ a:active {
  transition: all 0.35s ease;
  border-radius:15px;
  position: absolute;
- width: 140px;
+ width: 7%;
  height: 30px;
  top: 490px;
  left: 1283px;
@@ -183,10 +184,14 @@ a:active {
  transition: all 0.35s ease;
  border-radius:15px;
  position: absolute;
- width: 140px;
+ width: 7%;
  height: 30px;
  top: 490px;
  left: 1613px;
+}
+.cardwrapper {
+    max-width: 100%;
+    margin: auto;
 }
 
 .p6pro{
@@ -266,7 +271,7 @@ a:active {
  transition: all 0.35s ease;
  border-radius:15px;
  position: absolute;
- width: 140px;
+ width: 8%;
  height: 30px;
  top: 890px;
  left: 1286px;
@@ -364,7 +369,7 @@ color: white;
     background: dodgerblue;
     padding: 10px;
     height: 55px;
-    width: 240px;
+    width: 12.2%;
 
   }
 
@@ -392,9 +397,4 @@ color: white;
     top: 5px;
 }
 
-@media only screen and (max-width: 1064px) {
-    .content {
-        width: 60%;
-        font-size: 0.6em;
-    }
-}
+    
